@@ -1,0 +1,4 @@
+@font-face  {
+  font-family: "Simpsonfont";
+  src: url(Simpsonfont.ttf)
+}
