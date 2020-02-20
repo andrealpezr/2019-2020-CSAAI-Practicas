@@ -5,4 +5,4 @@ Curso 2019-2020
 
 Este repositorio debe estar configurado como una página web
 
-CV de Homer Simpson: https://github.com/andrealpezr/2019-2020-CSAAI-Practicas/cv.html
+CV de Homer Simpson: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P1/
