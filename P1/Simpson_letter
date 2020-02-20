@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 @font-face  {
   font-family: "Simpsonfont";
   src: url(Simpsonfont.ttf)
 }
+=======
+@font-face  {
+  font-family: "Simpsonfont";
+  src: url(Simpsonfont.ttf)
+}
+>>>>>>> c1d4b89c1173ab6165e52f7ce7d24e17926d0b1b

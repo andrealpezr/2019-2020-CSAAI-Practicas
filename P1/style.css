@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body  {
 /* Ubicación de la imagen de fondo */
 background-image: url(fondo.jpg);
@@ -125,3 +126,132 @@ h1  {
   background-color: rgba(205,205,205,0.02);
   margin-left: 39px;
 }
+=======
+body  {
+/* Ubicación de la imagen de fondo */
+background-image: url(fondo.jpg);
+/* Para centrar la imagen */
+background-position: center center;
+/* Para que se reescale automaticamente con el navegador */
+background-size: cover;
+}
+
+/* Estilo del Encabezado1*/
+h1  {
+  font-size: 50px;
+  color: yellow;
+  font-family: 'Simpsonfont.ttf', cursive;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* Estilo para la parte de la izquierda */
+.izquierda  {
+  float: left;
+  border-top: 25px;
+  text-align: center;
+  width: 30%;
+  border-radius: 25px ;
+  background-color: rgba(205,205,205,0.55);
+}
+
+/* Estilo de los títulos de las secciones */
+.Secciones  {
+  font-family: 'Simpsonfont.ttf', cursive;
+  font-size: 28px;
+  color: yellow;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+/* Estilo de los Encabezado3 */
+.h3-izq {
+  font-family: 'Simpsonfont.ttf', cursive;
+  text-decoration: underline black;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+  margin: 8px;
+}
+
+/* Estilo del texto */
+.texto-izq  {
+  font-size: 18px;
+  color: black;
+  font-family: 'Simpsonfont.ttf', cursive;
+  text-align: left;
+  margin: 16px;
+  list-style-imagen: url("donut.png");
+  list-style-type: none;
+  padding: 12px;
+  margin: 9px;
+}
+
+/* Estilo de los títulos de las secciones */
+.derecha  {
+  float: right;
+  border-top: 25px;
+  text-align: center;
+  width: 68%;
+  border-radius: 25px ;
+  background-color: rgba(205,205,205,0.55);
+  }
+
+  /* Estilo de los Encabezado3 */
+.h3-derecha-1 {
+  font-family: 'Simpsonfont.ttf', cursive;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  }
+
+.texto-derecha  {
+  font-size: 19px;
+  color: black;
+  font-family: 'Simpsonfont.ttf', cursive;
+  text-align: justify;
+  margin: 16px;
+  list-style-type: none;
+  }
+.texto-derecha-1  {
+  font-size: 19px;
+  color: black;
+  font-family: 'Simpsonfont.ttf', cursive;
+  text-align: center;
+  margin: 16px;
+  list-style-type: none;
+    }
+  /* Estilo de los Encabezado3 */
+.h3-derecha-2 {
+  font-family: 'Simpsonfont.ttf', cursive;
+  font-size: 18px;
+  color: black;
+  text-align: cente;
+  }
+
+.texto-derecha-2  {
+  font-size: 19px;
+  color: black;
+  font-family: 'Simpsonfont.ttf', cursive;
+  text-align: center;
+  list-style-type: none;
+  }
+.D_right_gif {
+  float: right;
+  border-top: 25px;
+  text-align: center;
+  width: 30%;
+  border-radius: 25px ;
+  background-color: rgba(205,205,205,0.02);
+  margin-right: 39px;
+}
+.D_left_gif {
+  float: left;
+  border-top: 25px;
+  text-align: center;
+  width: 30%;
+  border-radius: 25px ;
+  background-color: rgba(205,205,205,0.02);
+  margin-left: 39px;
+}
+>>>>>>> c1d4b89c1173ab6165e52f7ce7d24e17926d0b1b
