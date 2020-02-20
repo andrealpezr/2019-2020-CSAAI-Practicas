@@ -1,0 +1,13 @@
+body  {
+  padding: 0px;
+  /*! border: solid; */
+  border: none;
+  margin: 0px;
+}
+
+p  {
+  margin: 4px;
+  padding: 5px;
+  border: solid;
+  border-color: gray;
+}
