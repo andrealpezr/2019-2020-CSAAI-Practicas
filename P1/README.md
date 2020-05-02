@@ -9,14 +9,14 @@ PARA PODER VERLO TIENE QUE SEGUIR ESTOS PASOS:
 
 2. Aparecerá abajo del todo un botón y un link, en el cual si pinchas podrás ver un vídeo de Youtube.
 
-
+<br><br>
 EL CURRÍCULUM SE HA IMPLEMENTADO CON:
 - Etiquetas básicas: encabezados, párrafos, lista no ordenada y un botón.
 - Etiquetas básicas con atributos: link e imagen de Homer.
 
-
+<br><br>
 MEJORAS IMPLEMENTADAS:
-<br>
+<br><br>
 He añadido gifs sobre la experiencia laboral de Homer, un botón, y un enlace para acceder a los mejores momentos de Homer (al pincharlo accederá a un vídeo de Youtube).
 
 ¡¡Espero que le guste!!
