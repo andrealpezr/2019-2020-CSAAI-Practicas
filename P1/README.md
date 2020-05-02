@@ -5,18 +5,18 @@ Bienvenid@ a mi Curriculum, está basado en el personaje de Homer Simpson que ap
 PARA PODER VERLO TIENE QUE SEGUIR ESTOS PASOS:
 
 1. Pincha a este enlace para acceder al CV de Homer Simpson: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P1/
-<br> Es recomentable que el navegador sea Chrome o Firefox.
+Es recomentable que el navegador sea Chrome o Firefox.
 
 2. Aparecerá abajo del todo un botón y un link, en el cual si pinchas podrás ver un vídeo de Youtube.
 
-<br>
+
 EL CURRÍCULUM SE HA IMPLEMENTADO CON:
 - Etiquetas básicas: encabezados, párrafos, lista no ordenada y un botón.
 - Etiquetas básicas con atributos: link e imagen de Homer.
 
-<br>
+
 MEJORAS IMPLEMENTADAS:
-<br>
+
 He añadido gifs sobre la experiencia laboral de Homer, un botón, y un enlace para acceder a los mejores momentos de Homer (al pincharlo accederá a un vídeo de Youtube).
 
 ¡¡Espero que le guste!!
