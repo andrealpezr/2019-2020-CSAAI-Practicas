@@ -100,6 +100,6 @@ borra_ultimo.onclick = (ev) => {
 //-- Pone a cero la expresion
 clear.onclick = (ev) => {
   display.innerHTML = "0";
-  ESTADO.COMA = false;
   estado = ESTADO.INIT;
+  ESTADO.COMA = false;
 }
