@@ -1,28 +1,24 @@
-# Práctica 2: Calculadora
+¡¡ Bienvenid@ a mi Curriculum ficticio!!
 
-Este repositorio debe estar configurado como una página web
-
-Bienvenid@ a mi Calculadora, está versionada de manera similar a una Casio.
+El Curriculum está basado en el personaje de Homer Simpson que aparece en el programa de televisión Los Simpson.
 
 PARA PODER VERLO TIENE QUE SEGUIR ESTOS PASOS:
 
-1. Pincha a este enlace para acceder a la calculadora: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P2/
-<br>Es recomentable que el navegador sea Chrome o Firefox.
+1. Pincha a este enlace para acceder al CV de Homer Simpson: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P1/
+<br> Es recomentable que el navegador sea Chrome o Firefox.
 
-2. Pulse los botones para realizar la operación deseada (puede operar con decimales).
-
-3. Realiza las operaciones de: suma, resta, multiplicación, división, porcentajes, y potencias.
+2. Aparecerá abajo del todo un botón y un link, en el cual si pinchas podrás ver un vídeo de Youtube.
 
 
-LA CALCULADORA SE HA IMPLEMENTADO CON: máquina de estados.
+EL CURRÍCULUM SE HA IMPLEMENTADO CON:
+- Etiquetas básicas: encabezados, párrafos, lista no ordenada y un botón.
+- Etiquetas básicas con atributos: link e imagen de Homer.
+
 
 MEJORAS IMPLEMENTADAS:
 
-- He implementado la calculadora con máquina de estados.
-
-- He añadido varias adicionales como: porcentajes, potencias y la posibilidad de operar con decimales.
-
-- He mejorado posibles errores como: la imposibilidad de introducir varios operadores (p.ej. +-/), y la limitación de dígitos en el display para que no se sobresalgan del mismo (se pondrán tres puntos suspensivos).
-
+- He añadido gifs sobre la experiencia laboral de Homer.
+- Un botón.
+- Un enlace para acceder a los mejores momentos de Homer (al pincharlo accederá a un vídeo de Youtube).
 
 ¡¡Espero que le guste!!
