@@ -47,13 +47,10 @@ function digito(botons) {
   if(estado == ESTADO.INIT) {
       display.innerHTML = botons;
       estado = ESTADO.OP1;
-      console.log(estado, "cdigito");
     }else if (estado == ESTADO.OP1 || estado == ESTADO.OP2 || estado == ESTADO.OPERATION){
       display.innerHTML += botons;
-      console.log(estado,"cdigito");
       if (estado == ESTADO.OPERATION) {
         estado = ESTADO.OP2;
-        console.log(estado);
       }
     }
   }
@@ -83,7 +80,7 @@ punto.onclick = (ev) => {
 //-- Evaluar la expresion: igual
 //-- Coge la cadena del display, evalua y asigna al display para mostrarlo
 igual.onclick = () => {
-  if(estado == ESTADO.OP2){
+  if(estado == ESTADO.OP2 || estado == ESTADO.OP1){
     display.innerHTML = eval(display.innerHTML);
     estado = ESTADO.OP1;
     ESTADO.COMA = false;
