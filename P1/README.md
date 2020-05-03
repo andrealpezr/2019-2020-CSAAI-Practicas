@@ -1,6 +1,6 @@
-Este repositorio esta configurado como una página web.
+¡¡ Bienvenid@ a mi Curriculum ficticio!!
 
-Bienvenid@ a mi Curriculum, está basado en el personaje de Homer Simpson que aparece en el programa de televisión Los Simpson.
+El Curriculum está basado en el personaje de Homer Simpson que aparece en el programa de televisión Los Simpson.
 
 PARA PODER VERLO TIENE QUE SEGUIR ESTOS PASOS:
 
@@ -17,6 +17,8 @@ EL CURRÍCULUM SE HA IMPLEMENTADO CON:
 
 MEJORAS IMPLEMENTADAS:
 
-He añadido gifs sobre la experiencia laboral de Homer, un botón, y un enlace para acceder a los mejores momentos de Homer (al pincharlo accederá a un vídeo de Youtube).
+- He añadido gifs sobre la experiencia laboral de Homer.
+- Un botón.
+- Un enlace para acceder a los mejores momentos de Homer (al pincharlo accederá a un vídeo de Youtube).
 
 ¡¡Espero que le guste!!
