@@ -47,10 +47,13 @@ function digito(botons) {
   if(estado == ESTADO.INIT) {
       display.innerHTML = botons;
       estado = ESTADO.OP1;
+      console.log(estado,"operador 1");
     }else if (estado == ESTADO.OP1 || estado == ESTADO.OP2 || estado == ESTADO.OPERATION){
       display.innerHTML += botons;
       if (estado == ESTADO.OPERATION) {
-        estado = ESTADO.OP2;
+          estado = ESTADO.OP2;
+          console.log(estado,"segundo operando");
+          ESTADO.COMA = false;
       }
     }
   }
@@ -62,7 +65,8 @@ for (i=0; i<operacion.length; i++){
     if(estado == ESTADO.OP1){
            display.innerHTML += ev.target.value;
            estado = ESTADO.OPERATION;
-           console.log(estado,"op");
+           console.log(estado,"operacion deseada");
+           ESTADO.COMA = true;
     }
   }
 }
@@ -74,17 +78,18 @@ punto.onclick = (ev) => {
   }else{
     display.innerHTML += ev.target.value;
     ESTADO.COMA = true;
+    console.log(estado,"No hay error en la coma");
   }
 }
 
 //-- Evaluar la expresion: igual
 //-- Coge la cadena del display, evalua y asigna al display para mostrarlo
 igual.onclick = () => {
-  if(estado == ESTADO.OP2 || estado == ESTADO.OP1){
-    display.innerHTML = eval(display.innerHTML);
-    estado = ESTADO.OP1;
-    ESTADO.COMA = false;
-    console.log(estado,"igual");
+  if(estado == ESTADO.OP1 ||  estado == ESTADO.OP2){
+      display.innerHTML = eval(display.innerHTML);
+      estado = ESTADO.OP1;
+      ESTADO.COMA = true;
+      console.log(estado,"igual");
   }
 }
 
@@ -92,6 +97,7 @@ igual.onclick = () => {
 //-- Borra el ultimo digito u operando
 borra_ultimo.onclick = (ev) => {
   display.innerHTML = display.innerHTML.slice(0,-1);
+  console.log(estado,"borrar digito");
 }
 
 //-- Pone a cero la expresion
@@ -99,4 +105,5 @@ clear.onclick = (ev) => {
   display.innerHTML = "0";
   estado = ESTADO.INIT;
   ESTADO.COMA = false;
+  console.log(estado,"clear, se borra todo");
 }
