@@ -43,7 +43,7 @@ p {
   /* Para no salirnos del display */
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow: clip clip;
 }
 
 button{
