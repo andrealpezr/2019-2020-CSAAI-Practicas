@@ -25,7 +25,7 @@ MEJORAS IMPLEMENTADAS:
 - He añadido varias operaciones adicionales como: porcentajes, potencias y la posibilidad de operar con decimales.
 
 - He mejorado posibles errores como:
-<br> a. La imposibilidad de introducir varios operadores seguidos (p.ej +-/) incluido la coma (p.ej  8.2 +.8.4.3), de manera que si ya está puesta en el número decimal no se puede poner más veces, y si le das al igual tampoco puedes introducir la coma (p.ej answer: 200.).
+<br> a. La imposibilidad de introducir varios operadores seguidos (p.ej +-/) incluido la coma (p.ej  8.2 +.83), si ya está puesta en el número decimal no se puede poner más veces (p.ej  9.83 + 0.2.2), y si le das al igual tampoco puedes introducir la coma (p.ej answer: 200.).
 <br> b. La limitación de dígitos en el display para que no se sobresalgan del mismo.
 
 
