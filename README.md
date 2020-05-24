@@ -7,7 +7,7 @@ Práctica 1. CV de Homer Simpson: https://andrealpezr.github.io/2019-2020-CSAAI-
 <br>
 Práctica 2.Calculadora: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P2/
 <br>
-Práctica 3. Videojuego retro: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P3/
+Práctica 3. Videojuego retro: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P3/pong_01.html
 <br>
 Práctica 4. Vídeo:
 <br>
