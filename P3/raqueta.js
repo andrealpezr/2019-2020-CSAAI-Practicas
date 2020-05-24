@@ -11,11 +11,11 @@ class Raqueta
     this.height = 40;
 
     //-- Constante: Posicion inicial
-    this.x_ini = 50;
+    this.x_ini = 60;
     this.y_ini = 100;
 
     //-- Constante: Velocidad
-    this.v_ini = 3;
+    this.v_ini = 4;
 
     //-- Velocidad (variable)
     this.v = 0;
@@ -42,7 +42,7 @@ class Raqueta
   {
     //------- Dibujar las raquetas
     this.ctx.beginPath();
-    this.ctx.fillStyle='white';
+    this.ctx.fillStyle='black';
 
     //-- Raqueta izquierda
     this.ctx.rect(this.x, this.y, this.width, this.height);

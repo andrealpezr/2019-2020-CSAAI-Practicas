@@ -1,0 +1,77 @@
+
+@font-face{
+  font-family: "DS-DIGIT";
+  src: url("DS-DIGIT.TTF");
+  color: black;
+}
+/* Fondo de la página */
+body {
+    background-color: white;
+}
+
+/* Estilo para el canvas: Negro */
+#canvas {
+  background-color: rgba(205, 205, 205);
+  border: 1px solid white;
+  background-image: url("televisor.jpg");
+  background-size: 800px 590px;
+  background-position: center;
+}
+
+.instrucciones{
+  font-family: "DS-DIGIT";
+  border: black 8px dashed;
+  margin-right: 550px;
+}
+
+h1{
+  font-size: 60px;
+  margin-left: 300px;
+  font-family: "DS-DIGIT";
+}
+
+h2{
+  margin-left: 190px;
+  margin-top: 30px;
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+.texto_instruc{
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+button{
+  font-family: "DS-DIGIT";
+  background-color: rgba(205, 205, 205, 0.6);
+  color: black;
+  padding: 14px;
+  font-size: 22px;
+  width: 90px;
+  height: 50px;
+  margin: 8px;
+  border-radius: 20px 20px 20px 20px;
+  border: 3px solid black;
+}
+
+/*Boton Easy */
+.button1:hover{
+  background-color: rgba(0, 255, 0, 0.70);
+}
+
+/*Boton Medium */
+.button2:hover{
+  background-color: rgba(255, 85, 0, 0.70);
+}
+
+/*Boton Hard y stop */
+.button3:hover{
+  background-color: rgba(255, 0, 0, 0.70);
+}
+
+/*Boton Start */
+.button4:hover{
+  background-color: rgba(29, 29, 29, 0.70);
+}
