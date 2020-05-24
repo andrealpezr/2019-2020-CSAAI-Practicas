@@ -122,20 +122,22 @@ function draw(){
       sonido_ganador.play();
       ctx.fillText("CONSOLE WIN!", 155, 270);
       console.log("CONSOLE WIN!");
-      if(estado == ESTADO.SAQUE){
-        Contador2 = 0;
-        Contador1 = 0;
+      start.onclick = () => {
+        estado = ESTADO.SAQUE;
+        console.log("SAQUE!");
+        canvas.focus();
       }
     }
 
     if (Contador2 == 4) {
      sonido_ganador.play();
-     ctx.fillText("YOU ARE THE WINNER!", 155, 270);
+     ctx.fillText("YOU ARE THE WINNER!", 125, 270);
      console.log("YOU WIN!");
-     if(estado == ESTADO.SAQUE){
-       Contador2 = 0;
-       Contador1 = 0;
-     }
+       start.onclick = () => {
+         estado = ESTADO.SAQUE;
+         console.log("SAQUE!");
+         canvas.focus();
+       }
      }
    }
   }
