@@ -1,30 +1,35 @@
-# Práctica 2: Calculadora
+# Práctica 3: Pong.TV
 
-¡¡ Bienvenid@ a mi Calculadora!!
+¡¡ Bienvenid@ a mi Pong.TV!!
 
-Esta calculadora está versionada de manera similar a una Casio.
+PARA PODER JUGAR TIENE QUE SEGUIR ESTOS PASOS:
 
-PARA PODER VERLA TIENE QUE SEGUIR ESTOS PASOS:
-
-1. Pincha a este enlace para acceder a la calculadora: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P2/
+1. Pincha a este enlace para acceder al Pong.TV: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P3/pong_01.html
 <br>Es recomentable que el navegador sea Chrome o Firefox.
 
-2. Pulse los botones para realizar la operación deseada (puede operar con decimales).
+2. Selecciona la dificultad que desea: easy, medium, hard.
 
-3. Realiza las operaciones de: suma, resta, multiplicación, división, porcentajes, y potencias.
+3. Pulsa START para empezar o STOP para parar el juego.
 
+4. Tu rival (la máquina) jugará con la raqueta izquierda.
 
-LA CALCULADORA SE HA IMPLEMENTADO CON:
+5. Tú jugarás con la derecha: tecla p (arriba) y tecla l (abajo).
 
-- Máquina de estados.
+6. Para sacar la bola pulsa ESPACIO.
+
+7. El primero que consiga 4 puntos será el GANADOR.
 
 MEJORAS IMPLEMENTADAS:
 
-- He implementado la calculadora con máquina de estados.
+- He introducido distintos sonidos (rebote de pelota en las raquetas y paredes, al hacer punto, melodía de ganador...).
 
-- He añadido varias operaciones adicionales como: porcentajes, potencias y la posibilidad de operar con decimales.
+- Una de las raquetas las controla el ordenador.
 
-- He mejorado posibles errores como: la imposibilidad de introducir varios operadores (p.ej +-/), y la limitación de dígitos en el display para que no se sobresalgan del mismo (se pondrán tres puntos suspensivos).
+- La pelota cambia de ángulo según toque las raquetas o bordes del pong.TV.
 
+- Un cronómetro durante todo el juego hasta que se finaliza.
+
+- Poder elegir diferentes niveles en el juego. ¡CUIDADO QUE EL HARD ES MUY DIFÍCIL!
+<br> Según el nivel la pelota y raqueta rival incrementará de velocidad.
 
 ¡¡Espero que le guste!!
