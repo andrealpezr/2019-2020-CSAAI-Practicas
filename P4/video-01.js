@@ -59,7 +59,7 @@ play_v1.onclick = () => {
   ot_prueba.src = video1.src;
   ot_prueba.currentTime = video1.currentTime+0.35;
   ot_prueba.play();
-  video1.style.border = "5px solid white";
+  video1.style.border = "8px solid #F4C2C2";
   video2.style.border = "0px";
   video3.style.border = "0px";
   prueba.style.border = "0px";
@@ -72,7 +72,7 @@ play_v2.onclick = () => {
   ot_prueba.src = video2.src;
   ot_prueba.currentTime = video2.currentTime+0.35;
   ot_prueba.play();
-  video2.style.border = "5px solid white";
+  video2.style.border = "8px solid #F4C2C2";
   video1.style.border = "0px";
   video3.style.border = "0px";
   prueba.style.border = "0px";
@@ -84,7 +84,7 @@ play_v3.onclick = () => {
   ot_prueba.src = video3.src;
   ot_prueba.currentTime = video3.currentTime+0.35;
   ot_prueba.play();
-  video3.style.border = "5px solid white";
+  video3.style.border = "8px solid #F4C2C2";
   video1.style.border = "0px";
   video2.style.border = "0px";
   prueba.style.border = "0px";
@@ -96,7 +96,7 @@ play_v4.onclick = () => {
   ot_prueba.src = null;
   ot_prueba.poster = prueba.src;
   ot_prueba.play();
-  prueba.style.border = "2px solid white";
+  prueba.style.border = "8px solid #F4C2C2";
   video1.style.border = "0px";
   video2.style.border = "0px";
   video3.style.border = "0px";
