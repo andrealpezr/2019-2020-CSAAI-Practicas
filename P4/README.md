@@ -15,6 +15,8 @@ PARA PODER VERLA TIENES QUE SEGUIR ESTOS PASOS:
 
 MEJORAS IMPLEMENTADAS:
 
+- Imagen estática. Muestra una imagen estática, con un mensaje que pone "Emisión en Pruebas". Este canal se puede seleccionar en cualquier momento.
+
 - Reproducción en bucle. Reproduce sólo durante 2 segundos el vídeo y se vuelve atrás (2 segundos), repitiéndose ese trozo constantemente. Puedes cambiar la fuente de vídeo y el bucle se hará con el nuevo vídeo seleccionado. Si quieres puedes desactivarlo pulsando el botón "Parar Bucle".
 
 - Reiniciar la reproducción. Si quieres ver el vídeo del monitor desde el principio pulsa el botón "Reiniciar". Esta opción es implementada porque si seleccionas 1 vídeo, se reproducirá en el instante en el que se está reproduciendo en la miniatura de abajo y no desde el principio (¡¡Cómo en un estudio de TV real"!!).
