@@ -8,7 +8,7 @@ PARA PODER VERLA TIENES QUE SEGUIR ESTOS PASOS:
 1. Pincha en este enlace para acceder a la página: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P4/video_01.html
 <br>Es recomentable que el navegador sea Chrome o Firefox.
 
-2. En la parte superior central encontrarás un monitor y a la derecha unos botones. En la parte inferior encontrarás 3 vídeos en miniatura, y 1 imagen "Emisión de pruebas".
+2. En la parte superior central encontrarás un monitor y a la derecha unos botones. En la parte inferior encontrarás 3 vídeos en miniatura, y 1 imagen "Emisión en pruebas".
 
 3. Para mostrar en el monitor uno de los 3 vídeos o la imagen pulsa su botón correspondiente (situado en la parte inferior de cada uno respectivamente). Y para más opciones de los vídeos tienes los botones de arriba del todo a la derecha.
 <br>
