@@ -16,10 +16,11 @@ PARA PODER VERLA TIENES QUE SEGUIR ESTOS PASOS:
 
 MEJORAS IMPLEMENTADAS:
 
-- 1. Color RGB. Varía el color RGB según se mueva la barra deslizante de componente rgb.
+- Color RGB. Varía el color RGB según se mueva la barra deslizante de componente rgb.
 
-* FILTROS INDEPENDIENTES DE LA BARRA RGB:
-- Son independientes de la barra deslizante RGB, ya que se han aplicado las modificaciones de color seleccionadas. Al mover la barra deslizante se desactivará el filtro seleccionado:
+- FILTROS INDEPENDIENTES DE LA BARRA RGB:
+<br>
+Son independientes de la barra deslizante RGB, ya que se han aplicado las modificaciones de color seleccionadas. Al mover la barra deslizante se desactivará el filtro seleccionado:
 
 1. Filtro de grises. En el cual la imagen se pondrá en escala de grises.
 
@@ -32,13 +33,15 @@ MEJORAS IMPLEMENTADAS:
 5. Original. Existe la posibilidad de volver a la imagen original, de esta manera, se quitarían los filtros aplicados anteriormente (grises, negativo, sepia, contraste, color RGB).
 
 * FILTROS DEPENDIENTES DE LA BARRA RGB.
--Son dependientes de la barra deslizante RGB porque se pueden realizar las transformaciones desear y deslizar la barra RGB para obtener los colores deseados.
+<br>
+Son dependientes de la barra deslizante RGB porque se pueden realizar las transformaciones deseadas y deslizar la barra RGB para obtener los colores deseados.
 
 1. Filtro de espejo. Gira la imagen en el eje x (eje horizontal). Al darle dos veces al botón "Espejo" volvería a la posición original de la imagen.
 
 2. Rotar. Gira la imagen en el eje y (eje vertical). Al darle dos veces al botón "Rotar" volvería a la posición original de la imagen.
 
 <br>
-DIVIÉRTETE CON LA IMAGEN CAMBIANDO EL COLOR DE PELO, LABIOS... POR EJEMPLO: PONIENDO EL VALOR DE LA COMPONENTE AZUL A 0. ¡¡LA IMAGEN PARECE OTRA (PELO Y LABIOS ROJOS, BLUSA VERDE...)!!
+DIVIÉRTETE CON LA IMAGEN CAMBIANDO EL COLOR DE PELO, LABIOS... Por ejemplo: poniendo el valor de la componente azul a 0.¡¡LA IMAGEN PARECE OTRA (pelo y labios rojos, blusa verde...)!!
 
+<br>
 ¡¡ESPERO QUE TE HAYA GUSTADO!!
