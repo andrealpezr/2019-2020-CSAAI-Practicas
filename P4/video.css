@@ -1,53 +1,84 @@
-/@font-face{
+@font-face{
   font-family: "letra";
-  src: url("letra.TTF");
-}
-
-.ot{
-  margin-top: 30px;
-  margin-left: 400px;
-  float: center;
-}
-
-.opcion1, .opcion2, .opcion3{
-  display: inline-block;
-  margin-left: 840px;
-}
-
-
-#Nia, #Aitana{
-  padding-left: 100px;
-  padding-right: 70px;
-  float: left;
-}
-
-#Hugo, #prueba{
-  padding-left: 30px;
-  padding-right: 70px;
-  float: right;
-}
-
-h1{
-  font-size: 50px;
-  margin-left: 360px;
-  font-family: "letra";
-  color: white;
+  src: url("letra.ttf");
 }
 
 body {
-  background-image: url("ot.jpg");
+  background-image: url("fondo.jpg");
   background-size: cover;
 }
 
+.ot{
+  margin-left: 90px;
+  float: left;
+  border: 30px ridge;
+  border-color: rgba(87, 35, 100, 1.0);
+  background-color: rgba(87, 35, 100, 1.0);
+  margin-right: 100px;
+}
+
+.pantalla{
+  height: 500px;
+  margin: auto;
+  padding: 20px;
+  width: 40%;
+}
+
+#Nia{
+  padding-left: 50px;
+  padding-right: 60px;
+  float: left;
+}
+
+#Hugo{
+  padding-left: 10px;
+  padding-right: 60px;
+  float: left;
+}
+
+#Aitana{
+  padding-left: 20px;
+  padding-right: 22px;
+  float: right;
+}
+
+#prueba{
+  padding-left: 0px;
+  padding-right: 76px;
+  float: right;
+}
+
+
+h1{
+  font-size: 80px;
+  margin-left: 430px;
+  font-family: "letra";
+  color: black;
+}
 
 button{
-  background-color: white;
-  color: black;
+  background-image: url("probando.jpg");
+  background-size: cover;
+  color: white;
   padding: 7px;
   font-size: 17px;
   font-family: cursive;
   margin: 3px 3px;
   border-radius: 7px 7px 7px 7px;
-  border: 3px solid black;
+  border: 5px solid black;
   width: 130px;
+}
+
+#play_v1, #play_v2, #play_v3, #play_v4{
+  margin-left: 45px;
+  background-image: url("botones.jpg");
+  background-size: cover;
+  color: black;
+}
+
+.opciones{
+  text-align: left;
+  margin-left: 560px;
+  margin-right: 10px;
+  height: 200px;
 }
