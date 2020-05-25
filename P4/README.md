@@ -1,17 +1,17 @@
 # Práctica 4: Vídeo
 
-¡¡ Bienvenid@ a mi vídeo de las mejores actuaciones de OT!!
+¡¡ Bienvenid@ a mi página de las mejores actuaciones de OT!!
 
 
-PARA PODER VERLA TIENE QUE SEGUIR ESTOS PASOS:
+PARA PODER VERLA TIENES QUE SEGUIR ESTOS PASOS:
 
-1. Pincha a este enlace para acceder a la calculadora: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P4/video_01.html
+1. Pincha en este enlace para acceder a la página: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P4/video_01.html
 <br>Es recomentable que el navegador sea Chrome o Firefox.
 
 2. En la parte superior central encontrarás un monitor y a la derecha unos botones. En la parte inferior encontrarás 3 vídeos en miniatura, y 1 imagen "Emisión de pruebas".
 
-3. Para mostrar en el monitor uno de los 3 vídeos o la imagen pulsa su botón correspondiente. Y para más opciones de los vídeos tienes los botones de arriba del todo.
-
+3. Para mostrar en el monitor uno de los 3 vídeos o la imagen pulsa su botón correspondiente (situado en la parte inferior de cada uno respectivamente). Y para más opciones de los vídeos tienes los botones de arriba del todo a la derecha.
+<br>
 
 MEJORAS IMPLEMENTADAS:
 
