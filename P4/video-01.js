@@ -43,14 +43,13 @@ const pausar = document.getElementById("pausar");
 const reiniciar =  document.getElementById("reiniciar");
 const sonido = document.getElementById("con_sonido");
 const silenciar = document.getElementById("silenciar");
-const automatico = document.getElementById("automatico");
+const parar_bucle = document.getElementById("parar_bucle");
 const bucle = document.getElementById("bucle");
 const continuar = document.getElementById("continuar");
 
-//-- Variables para reproduccion en Bucle
-repetir = false;
+//-- Variable para reproduccion en Bucle
 var inicio = 0;
-var final = 0;
+
 
 //-- Manejo de seleccion de botones
 
@@ -97,13 +96,15 @@ play_v4.onclick = () => {
 bucle.onclick = () => {
   console.log("Reproduciendo en bucle");
   inicio = ot_prueba.currentTime;
-  final = ot_prueba.currentTime + 2;
-  if(!repetir){
-    repetir = true;
-  }else{
-    repetir = false;
+  var time = setInterval(tiempo, 5000);
+  function tiempo(){
+    ot_prueba.currentTime = inicio;
   }
+  parar_bucle.onclick = () => {
+  console.log("Parando bucle");
+  clearInterval(time);
   }
+};
 
 //-- silenciar
 silenciar.onclick = () => {
