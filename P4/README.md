@@ -19,9 +19,9 @@ MEJORAS IMPLEMENTADAS:
 
 - Reiniciar la reproducción. Si quieres ver el vídeo del monitor desde el principio pulsa el botón "Reiniciar". Esta opción es implementada porque si seleccionas 1 vídeo, se reproducirá en el instante en el que se está reproduciendo en la miniatura de abajo y no desde el principio (¡¡Cómo en un estudio de TV real"!!).
 
-- Pausar la reproducción. Congela la reproducción del vídeo seleccionado (del monitor). Al seleccionar otro vídeo se desactivará esta opción, al igual que hacer click en el botón "Continuar".
+- Pausar la reproducción. Congela la reproducción del vídeo seleccionado (del monitor). Al seleccionar otro vídeo se desactivará esta opción, al igual que al hacer click al botón "Continuar".
 
-- Continuar la Reproducción. Esta opción sólo funcionará cuando se haya pausado el vídeo. Al seleccionar el botón de "Continuar" el vídeo se reproducirá desde donde se había pausado.
+- Continuar la Reproducción. Esta opción sólo funcionará cuando se haya pausado el vídeo. Al seleccionar el botón de "Continuar", el vídeo se reproducirá desde donde se había pausado.
 
 - Activar y/o desactivar el sonido del vídeo del monitor. El vídeo del monitor siempre tiene sonido, pero puedes desactivarlo con el botón "Sin sonido". Para volver a activar el sonido pulsa el botón "Con sonido".
 
