@@ -95,10 +95,10 @@ deslizador_B.oninput = () => {
 
 //-- En caso de seleccionar en grises
 grises.onclick = () => {
-  barra.style.display = "none";
   //-- Obtener la imagen del canvas en pixeles
   let imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
   let data = imgData.data
+
   //-- Filtrar la imagen según el nuevo umbral
   for (var i = 0; i < data.length; i++) {
     var Rojo = data[i* 4];
@@ -115,9 +115,11 @@ grises.onclick = () => {
 
 //-- En caso de seleccionar el Negativo
 negativo.onclick = () => {
+
   //-- Obtener la imagen del canvas en pixeles
   let imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
   let data = imgData.data
+
   //-- Filtrar la imagen según el nuevo umbral
   for (var i = 0; i < data.length; i++) {
     var Rojo = data[i* 4];
@@ -158,6 +160,7 @@ contraste.onclick = () => {
   //-- Obtener la imagen del canvas en pixeles
   let imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
   let data = imgData.data
+
   var factor = 0;
   var valor = 100;
 
@@ -172,26 +175,36 @@ contraste.onclick = () => {
     data[i*4 +1] = factor * (Verde -128) + 128;
     data[i*4 +2] = factor * (Azul -128) + 128;
     }
+
   //-- Poner la imagen modificada en el canvas
   ctx.putImageData(imgData, 0, 0);
 }
 
-
+//-- Opcion de espejo
 espejo.onclick = () => {
   console.log("Espejo de la imagen");
   ctx.drawImage(img, 0, 0);
   ctx.translate(2*(img.width)/2,0);
   ctx.scale(-1, 1);
   ctx.drawImage(img, 0, 0);
+
 }
 
+//-- Opcion de ROTAR
 rotar.onclick = () => {
-  console.log("Espejo de la imagen");
+  console.log("Rotar de la imagen");
   ctx.drawImage(img, 0, 0);
   ctx.translate(0, canvas.height);
   ctx.scale(1, -1);
   ctx.drawImage(img, 0, 0);
 }
 
+
+//--Original
+
+original.onclick = () => {
+  console.log("Volver a la imagen original");
+  ctx.drawImage(img, 0, 0);
+}
 
 console.log("Fin...");

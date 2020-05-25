@@ -3,9 +3,18 @@
   src: url("letra.ttf");
 }
 
+@font-face{
+  font-family: "letra_botones";
+  src: url("letra_botones.ttf");
+}
+
+
+body{
+  background-image: url("fondo.jpg");
+}
 h1{
   font-size: 80px;
-  margin-left: 380px;
+  margin-left: 450px;
   font-family: "letra";
   color: black;
 }
@@ -19,9 +28,13 @@ h2{
 }
 
 
+
 .barra{
+  margin-top: 35px;
   font-size: 23px;
+  font-weight: bold;
   font-family: "letra";
+  font-style: bold;
   color: black;
   text-align: center;
   column-count: 3;
@@ -29,11 +42,6 @@ h2{
   padding-right: 100px;
 }
 
-button{
-  margin-top: 2px;
-  margin-left: 500px;
-  margin-right: 80px;
-}
 
 #formato{
   text-align: center;
@@ -49,3 +57,21 @@ button{
   text-align: center;
   column-count: 2;
   }
+
+button{
+  font-family: "letra";
+  font-size: 25px;
+  font-weight: bold;
+  background-size: contain;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 90px;
+  padding-top: 8px;
+  padding-bottom: 9px;
+  padding-left: 9px;
+  padding-right: 10px;
+  border-color: #d8d8d8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 15px;
+}
