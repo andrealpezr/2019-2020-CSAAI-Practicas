@@ -8,20 +8,20 @@ const prueba = document.getElementById("prueba_im");
 const ot_prueba = document.getElementById("ot_prueba");
 
 //-- Tamaño de los videos e imagen de prueba
-ot_prueba.width= 500;  //-- Tamaño de la pantalla de video
-ot_prueba.height= 300;
+ot_prueba.width= 300;  //-- Tamaño de la pantalla de video
+ot_prueba.height= 200;
 
-video1.width = 400;
-video1.height = 300;
+video1.width = 250;
+video1.height = 150;
 
-video2.width = 400;
-video2.height = 300;
+video2.width = 250;
+video2.height = 150;
 
-video3.width = 400;
-video3.height = 300;
+video3.width = 250;
+video3.height = 150;
 
-prueba.width = 400;
-prueba.height = 300;
+prueba.width = 250;
+prueba.height = 140;
 
 
 //-- Ubicaciones de videos e imagen
@@ -59,8 +59,10 @@ play_v1.onclick = () => {
   ot_prueba.src = video1.src;
   ot_prueba.currentTime = video1.currentTime+0.35;
   ot_prueba.play();
-  video1.style.border = "2px solid white";
-  ot_prueba.style.border = "0px";
+  video1.style.border = "5px solid white";
+  video2.style.border = "0px";
+  video3.style.border = "0px";
+  prueba.style.border = "0px";
 };
 
 
@@ -70,8 +72,10 @@ play_v2.onclick = () => {
   ot_prueba.src = video2.src;
   ot_prueba.currentTime = video2.currentTime+0.35;
   ot_prueba.play();
-  video2.style.border = "2px solid white";
-  ot_prueba.style.border = "0px";
+  video2.style.border = "5px solid white";
+  video1.style.border = "0px";
+  video3.style.border = "0px";
+  prueba.style.border = "0px";
 };
 
 //--Video3: Aitana
@@ -80,16 +84,22 @@ play_v3.onclick = () => {
   ot_prueba.src = video3.src;
   ot_prueba.currentTime = video3.currentTime+0.35;
   ot_prueba.play();
-  video3.style.border = "2px solid white";
-  ot_prueba.style.border = "0px";
+  video3.style.border = "5px solid white";
+  video1.style.border = "0px";
+  video2.style.border = "0px";
+  prueba.style.border = "0px";
 };
 
 //-- Imagen de prueba
 play_v4.onclick = () => {
   console.log("Emision en Prueba");
+  ot_prueba.src = null;
   ot_prueba.poster = prueba.src;
   ot_prueba.play();
   prueba.style.border = "2px solid white";
+  video1.style.border = "0px";
+  video2.style.border = "0px";
+  video3.style.border = "0px";
 };
 
 //-- Video en Bucle
@@ -103,6 +113,7 @@ bucle.onclick = () => {
   parar_bucle.onclick = () => {
   console.log("Parando bucle");
   clearInterval(time);
+  inicio = ot_prueba.currentTime;
   }
 };
 
