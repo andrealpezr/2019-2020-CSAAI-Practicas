@@ -9,6 +9,6 @@ Práctica 2.Calculadora: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas
 <br>
 Práctica 3. Videojuego retro: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P3/pong_01.html
 <br>
-Práctica 4. Vídeo:https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P4/video_01.html
+Práctica 4. Vídeo: https://andrealpezr.github.io/2019-2020-CSAAI-Practicas/P4/video_01.html
 <br>
 Práctica 5. Procesado de imagen
