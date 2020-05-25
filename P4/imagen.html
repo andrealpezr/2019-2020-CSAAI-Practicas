@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Filtros</title>
+    <link rel="stylesheet" href="imagen.css">
+    <script src="imagen.js" defer></script>
+  </head>
+  <body>
+      <h1>Tratamiento de Imagenes</h1>
+    <div class="imagenes">
+      <img src="colore.jpg" id="imag">
+      <h2> Imagen Original</h2>
+      <canvas id="canvas"></canvas>
+      <h2> Imagen Manipulada </h2>
+    </div>
+    <div class="filtros">
+      <button type="button" id="grises"> GRISES</button>
+      <button type="button" id="negativo"> NEGATIVO</button>
+      <button type="button" id="sepia"> SEPIA</button>
+      <button type="button" id="contraste"> CONTRASTE</button>
+      <button type="button" id="espejo"> ESPEJO</button>
+      <button type="button" id="rotar"> ROTAR</button>
+      <button type="button" id="original"> ORIGINAL</button>
+    </div>
+
+    <div class= "barra" id="barra">
+      <p>R</p>
+      <input type="range" id="deslizador_R" min="0" max="255" value="255"/>
+      <p id="range_value_R">255</p>
+      <p>G</p>
+      <input type="range" id="deslizador_G" min="0" max="255" value="255"/>
+      <p id="range_value_G">255</p>
+      <p>B</p>
+      <input type="range" id="deslizador_B" min="0" max="255" value="255"/>
+      <p id="range_value_B">255</p>
+    </div>
+  </body>
+</html>
